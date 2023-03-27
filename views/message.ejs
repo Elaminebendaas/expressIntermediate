@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Put the message name here</title>
+    <title><%= locals.name %></title>
 </head>
 <body>
-    so this page will redirect you to the message that you clicked on in the message board
+    <h1><%= locals.name %></h1>
+    <p><%= locals.message %></p>
+    <p><%= locals.date %></p>
+
+    <a href="/">Return to homepage!</a>
     
 </body>
 </html>

@@ -17,12 +17,11 @@
 
 
   <div class="container">
-    <% array.forEach(element => { %>
+    <% messages.forEach((message, index) => { %>
         <div class="item">
-          <h3>name</h3>
-          <p>message</p>
-          
-          <a href="">Click to see more</a>
+          <h3><%= message.name %></h3>
+          <p><%= message.message %></p>
+          <a href="/<%=index%>">Click to see more</a>
         </div>
     <% }) %>
   </div>

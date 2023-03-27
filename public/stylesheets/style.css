@@ -16,6 +16,8 @@ a {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 5em;
+  
 }
 
 .item{
@@ -24,5 +26,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: center;
+  flex-direction: column;
+  border: solid 2px black;
+  border-radius: 18px;
+  box-shadow: 0 0 1em 0 black;
 }
